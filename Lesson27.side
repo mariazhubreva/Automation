@@ -1,0 +1,227 @@
+{
+  "id": "7d5e1026-b5d8-47ab-bc34-d3c29edc98dc",
+  "version": "2.0",
+  "name": "Lesson27",
+  "url": "https://www.saucedemo.com/",
+  "tests": [{
+    "id": "27725056-8786-4f2e-b7cd-a1eb1a3c106a",
+    "name": "Test1",
+    "commands": [{
+      "id": "8d33ed63-74fb-4a87-978b-ae6ea9952847",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73c29200-db84-411b-aabc-91979669ca43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1496x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82eb3a86-c1ac-4196-97f8-7cf13ce236f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8052e510-d6b9-4ad8-b71d-7d3f68e42dda",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "standard_user"
+    }, {
+      "id": "8136b0cf-93a0-4c7a-93b1-b2d70c5b5232",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "secret_sauce"
+    }, {
+      "id": "107617ca-643a-4617-8903-bad4bdca036f",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7330cf3a-9a2b-4858-a67a-de8aa7d2d038",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.inventory_item:nth-child(1) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+    }, {
+      "id": "e7d417b2-c785-411a-89d6-600503c9b909",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "46f51be4-7572-43b9-babc-e8fadfe33b27",
+    "name": "Test2",
+    "commands": [{
+      "id": "c919ff80-3231-4d1d-870e-7f5fbf6ba92e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "089db7e6-fc92-444d-b964-e84394be4916",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1496x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb9d4ec1-80a6-4158-9cc5-61449f2b2fd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89423922-4e3a-4b06-9bf5-c0e4f4245a1c",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locked_out_user"
+    }, {
+      "id": "266330e8-23b4-4cc2-9870-67869302766e",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "secret_sauce"
+    }, {
+      "id": "a0a871af-670a-4f9a-9e3b-f8359a8a8823",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4eb1e62-ca24-42a6-b34b-042d32174052",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Sorry, this user has been locked out.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e872c970-18b6-4fb1-b3fe-035ce04865a4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Sorry, this user has been locked out."
+    }, {
+      "id": "6b0f4c7c-6cf5-4dc5-a1dd-5aeb269ab633",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.fa-times > path",
+      "targets": [
+        ["css=.fa-times > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e12d548a-ea85-45d6-8a56-6e354e440877",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "706c17a0-670a-4eff-bd38-7c6653da8c3a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["27725056-8786-4f2e-b7cd-a1eb1a3c106a"]
+  }],
+  "urls": ["https://www.saucedemo.com/"],
+  "plugins": []
+}
